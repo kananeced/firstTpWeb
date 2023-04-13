@@ -186,4 +186,15 @@
         $resul = ($nbr1+$nbr2)-$nbr3;
             echo '<font color="blue" size = 20> le salire de base est  c\'est '.$nbr1.' avantage est  c\'est '.$nbr2.' le avc  est  c\'est '.$nbr3.' dont le salaire  est  c\'est '.$resul.'$ </font>' ;
     }
+ if(isset($_POST["addition"]))
+    {
+        $nbr1=$_POST["nbr1"];
+        $nbr2=$_POST["nbr2"];
+     
+
+        $resul = ($nbr1+$nbr2);
+            echo '<font color="blue" size = 20> la somme c\'est '.$resul.' </font>' ;
+    }
+
+    
 ?>
